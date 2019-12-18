@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>About Noah</title>
+                <link rel="stylesheet" type="text/css" href="mystyle.css">
+                    <style>
+                        body {       
+              background-image: url("mybackground.png");
+                   font-size: 12px;
+                    }                       
+                       * {
+              box-sizing: border-box;
+            }
+            .img-container {
+              float: left;
+              width: 20.33%;
+              padding: 5px;
+            }
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+                           body {
+                        font-size: 12px;
+                    }
+                    h2 {
+                        color: rgb(230,0.255);
+                        font-size: 14px;
+                    } 
+                    </style>       
+    </head>
+
+    <body>
+        <img src="mybanner.jpg">
+        <table id="nav-table">
+            <tr>   
+         <td id="nav-td"><a href="index.html"><img src="home.png"></a></td>
+         <td id="nav-td"><a href="javascript.html"><img src="javascript.png"></a></td>                                               
+         <td id="nav-td"><a href="apps.html"><img src="apps.png"></a></td>
+         <td id="nav-td"><a href="about-me.html"><img src="about-me.png"></a></td> 
+                  </tr>
+        </table>
+
+        <h1><em> Hello, I'm Noah</h1></em>
+
+       <p>     
+        <strong><ul>
+       <li>I am a student veteran pursuing a major in Computer Science and I have not chosen a minor yet.</li>
+       <li> I have a background in electrical technologies and industrial electrical work.<br></li>
+       <li>I am new to programming and excited to start my journey in this field of study.<br></li>
+       <li>I am married and the father of three amazing boys.</p></li>
+        </ul>  </strong>
+
+<h2>
+        I am looking forward to studying and someday pursuing a career in Programming<br>
+  <strong><em>So for this has been and amazing experience for me and i can't wait to continue learning more. </strong></em>
+
+        </h2>
+
+        
+
+        <h3> In my off time when I am not programming, I enjoy spending time with my family in the outdoors and playing video games.<br>
+		Some of my interests include:
+		</h3>
+
+			<p>
+
+              <ol>
+       <li>My Family</li>
+       <li>The Military<br></li>
+       <li>Wilderness Survival<br></li>
+       //<li></p></li>
+        </ol>
+
+
+        <div class="clearfix">
+  <div class="img-container">
+
+  <img src="usmclogo.jpg" alt="Marine Corps" style="width:60%">
+  </div>   <div class="img-container">
+  <img src="wilderness.jpg" alt="Wilderness" style="width:85%">
+  </div>
+
+</div>                                                 
+
+
+
+
+    </body>
+</html>
